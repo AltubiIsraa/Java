@@ -1,13 +1,13 @@
 package hs.hs;
 
 public class Cclass {
-    private final Aclass bClass;
+    private final Bclass bClass;
 
-    public Cclass(Aclass bClass) {
+    public Cclass(Bclass bClass) {
         this.bClass = bClass;
     }
 
     public String getCValue() {
-        return this.bClass.getNotiA();
+        return this.bClass.getAValue();
     }
 }

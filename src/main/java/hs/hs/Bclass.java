@@ -8,7 +8,12 @@ public class Bclass {
     }
 
     public String getAValue() {
+        
         return this.aClass.getNotiA();
     }
     
 }
+
+
+
+

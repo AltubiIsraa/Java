@@ -13,8 +13,9 @@ public class HsApplication {
 
 	public static void main(String[] args) {
 
-		
-		SpringApplication.run(HsApplication.class, args); {
+
+		SpringApplication.run(HsApplication.class, args);
+		 {
 			var context = new ClassPathXmlApplicationContext("config.xml");
 
 			Aclass  Acont = (Aclass) context.getBean("classA");
