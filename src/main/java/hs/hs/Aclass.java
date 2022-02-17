@@ -27,7 +27,11 @@ public class Aclass {
 
     private static void testA(boolean expected, boolean given) {
         if (expected != given) {
-            throw new RuntimeErrorException("Test");
+            throw new RuntimeErrorException(null, "Test");
         }
+    }
+
+    public String getNotiA() {
+        return null;
     }
 }
